@@ -1,0 +1,102 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: #f2ecec;
+  padding-left: 20px;
+  padding-right: 0px;
+  padding-top: 10px;
+  border-radius: 8px;
+  padding-bottom: 10px;
+}
+
+.search-input {
+  background-color: #f2ecec;
+  border: none;
+  border-radius: 6px;
+}
+
+.search-icon {
+  height: 18px;
+  width: 18px;
+  color: #475569;
+}
+
+.category-heading {
+  font-family: Roboto;
+  color: #12022f;
+  font-size: 20px;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .category-heading {
+    font-size: 28px;
+  }
+}
+
+.categories-list {
+  padding-left: 0px;
+  list-style-type: none;
+  color: #64748b;
+}
+
+.category-item {
+  cursor: pointer;
+  outline: none;
+}
+
+category-name {
+  font-family: Roboto;
+  color: #64748b;
+  font-size: 18px;
+}
+
+.active-category-name {
+  color: #0967d2;
+}
+
+.rating-heading {
+  font-family: Roboto;
+  color: #12022f;
+  font-size: 20px;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .rating-heading {
+    font-size: 28px;
+  }
+}
+
+.rating-list {
+  padding-left: 0px;
+}
+
+.rating-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.rating-img {
+  width: 150px;
+}
+
+.and-up {
+  font-family: Roboto;
+  color: #64748b;
+  font-size: 15px;
+  margin-left: 25px;
+}
